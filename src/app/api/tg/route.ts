@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
         }))) || [],
         title: dayjs(message.date * 1000).format('MM-DD'),
         // media: message.media,
-        entities: message?.entities ?? null,
+        // entities: message?.entities ?? null,
       }
     })
 
