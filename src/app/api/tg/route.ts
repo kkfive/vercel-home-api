@@ -141,3 +141,4 @@ function isInMarkdownLink(position: number, text: string): boolean {
   return false
 }
 
+export const revalidate = 60
